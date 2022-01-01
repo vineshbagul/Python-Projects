@@ -37,7 +37,7 @@ def add():
 
 while True:
     mode = input(
-        "Would you like to add a new password or view existing ones (view, add), press q to quit? ").lower()
+        "Would you like to add a new password or view existing ones (view, add), press Q to Quit? ").lower()
     if mode == "q":
         break
 
@@ -46,5 +46,5 @@ while True:
     elif mode == "add":
         add()
     else:
-        print("Invalid mode.")
+        print("Invalid mode .")
         continue
